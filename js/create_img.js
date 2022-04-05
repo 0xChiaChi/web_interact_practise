@@ -13,8 +13,8 @@ window.onload=function () {
 				let y=(Math.random() *area.offsetHeight);
 				if(y>(area.offsetHeight-700)){
 					y-=700;
-				}if(x>(area.offsetWidth/2-400)){
-					x-=400;
+				}if(x>(area.offsetWidth/2-500)){
+					x-=500;
 				}
 			    var div = document.createElement("div");
 			    div.className =" drag-drop artwork";

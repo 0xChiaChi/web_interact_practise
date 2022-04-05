@@ -1,0 +1,78 @@
+@font-face {
+  font-family: palatino;
+  src: url("palatino.ttf");
+}
+
+@font-face {
+  font-family: notoSerif;
+  src: url("notoSerif.otf");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: palatino, notoSerif;
+  font-size: 14px;
+  overflow-x: hidden;
+}
+
+::-webkit-scrollbar {
+  width: 10px !important;
+}
+
+::-webkit-scrollbar-thumb {
+  /* border-radius: 4px !important; */
+  background-color: #353535;
+}
+
+a {
+  text-decoration: none;
+}
+
+article,
+section,
+aside,
+address,
+nav,
+header,
+footer,
+img {
+  display: block;
+}
+
+img {
+  border: none;
+}
+
+li {
+  list-style: none;
+}
+
+.social-media {
+  display: flex;
+  justify-content: right;
+}
+
+.social-media a {
+  margin-left: 60px;
+  margin-right: 5px;
+}
+
+.social-media img {
+  height: 24px;
+  width: auto;
+  margin-top: 0px;
+  margin-bottom: 8px;
+}
+
+.social-media img:hover {
+  margin-top: 8px;
+  margin-bottom: 0px;
+}
+
+.row div {
+  margin-top: 4px;
+}

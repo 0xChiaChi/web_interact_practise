@@ -17,8 +17,8 @@
 	<title>作品集</title>
 </head>
 <body>
- <div class="container-fluid" >
-   	<div id="dropzone" class="dropzone"></div>
+ <div class="container-fluid" ><!--style="height:200vh; "-->
+	    <div id="dropzone" class="dropzone"></div>
     <div class="row m-md-0">
         <div class="col-4 justify-content-center align-self-center">
             <h5>Subtitle</h5>
@@ -28,18 +28,19 @@
         </div>
         <div class="col-4 mt-0" style="background-color: transparent;">
             <div class="row social-media justify-content-center align-self-center pt-0" style="font-size: 24px">
-            	<div class="col">
-            		<a href="#"class="fa-brands fa-facebook"></a>
-            	</div>
-            	<div class="col">
-            		<a href="#"class="fa-brands fa-instagram"></a>
-            	</div>
-            	<div class="col">
-            		<a class="fa-solid fa-cart-shopping" data-toggle="modal" data-target="#Modal"></a>
-            	</div>
+                <div class="col">
+                    <a href="#"class="fa-brands fa-facebook"></a>
+                </div>
+                <div class="col">
+                    <a href="#"class="fa-brands fa-instagram"></a>
+                </div>
+                <div class="col">
+                    <a class="fa-solid fa-cart-shopping" data-toggle="modal" data-target="#Modal"></a>
+                </div>
             </div>
         </div>
     </div>
+<!-- Modal -->
 	<div class="modal fade" id="Modal" tabindex="-1" aria-labelledby="ModalLabel" aria-hidden="true">
       <div class="modal-dialog">
         <div class="modal-content">
@@ -70,28 +71,18 @@
         </div>
        </div>
     </div>
-	<div id="area" class="desktop"style="height: 2000px;width: 100%; ">
+	<div id="area" class="desktop"style="height: 2000px; width: 100%;  flex-grow: 1; ">
 	</div>
-	<footer class="blog-footer py-5 container">
+	<footer class="blog-footer py-5 container " style="padding-top: auto;">
 	  <div class="row">
-	    <div class="col-12 col-md">
-	    	<div class="ml-5">
-	    		<i class="fa-solid fa-paintbrush" style="font-size: 24px"></i>
-	    	</div>
-	      
-	      <small class="d-block text-muted">© 2021-2022</small>
+	    <div class="col-4 col-md" style="text-align: center;">
+	      <h5 >text</h5>
 	    </div>
-	    <div class="col-6 col-md" style="text-align: center;">
-	      <h5 >安全</h5>
+	    <div class="col-4 col-md" style="text-align: center;">
+	      <h5 >text</h5>
 	    </div>
-	    <div class="col-6 col-md" style="text-align: center;">
-	      <h5 >準確</h5>
-	    </div>
-	    <div class="col-6 col-md" style="text-align: center;">
-	      <h5 >效率</h5>
-	    </div>
-	    <div class="col-6 col-md" style="text-align: center;">
-	      <h5 >完善</h5>
+	    <div class="col-4 col-md" style="text-align: center;">
+	      <h5 >text</h5>
 	    </div>
 	  </div>
 	</footer>

@@ -4,9 +4,7 @@ window.onload=function () {
 		type: 'GET',
 		dataType: 'text',
 		success:function(data) {
-			console.log(data);
 			var jsonData = $.csv.toObjects(data); 
-			console.log(jsonData);
 			var area = document.getElementById("area");
 			$.each(jsonData, function (index, value) { 
 				let x=((Math.random() *50)+5);
